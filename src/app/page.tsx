@@ -1,11 +1,12 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link';
+import React from 'react';
 
 export default function Home() {
   const links = [
-    { href: "/usestate", label: "useState" },
-    { href: "/selecttag", label: "selectTag" },
-    { href: "/customhooks", label: "customHooks" },
+    { href: '/usestate', label: 'useState' },
+    { href: '/selecttag', label: 'selectTag' },
+    { href: '/customhooks', label: 'customHooks' },
+    { href: '/idscroll', label: 'id-scroll' },
   ];
 
   return (
