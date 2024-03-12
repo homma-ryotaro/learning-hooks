@@ -8,6 +8,8 @@ export default function Home() {
     { href: '/customhooks', label: 'customHooks' },
     { href: '/idscroll', label: 'id-scroll' },
     { href: '/wizard', label: 'react-use-wizard' },
+    { href: '/tab', label: 'Tab with useRef' },
+    { href: '/useswr', label: 'useSWR' },
   ];
 
   return (

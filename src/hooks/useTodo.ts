@@ -1,6 +1,5 @@
-"use client";
-import { TodoInfoType } from "@/app/customhooks/types";
-import { useState } from "react";
+import { TodoInfoType } from '@/app/customhooks/types';
+import { useState } from 'react';
 
 const useTodo = () => {
   /**
@@ -8,11 +7,11 @@ const useTodo = () => {
    */
   const [todos, setTodos] = useState<TodoInfoType[]>([]);
 
-  const [inputValue, setInputValue] = useState("");
+  const [inputValue, setInputValue] = useState('');
 
   const addTodo = (todo: TodoInfoType) => {
     setTodos([...todos, todo]);
-    setInputValue("");
+    setInputValue('');
   };
 
   const removeTodo = (id: number) => {
